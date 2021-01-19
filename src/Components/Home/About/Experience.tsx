@@ -3,7 +3,9 @@ import {
   Text,
   Center,
   Heading,
-  useColorModeValue
+  useColorModeValue,
+  Badge,
+  HStack
 } from "@chakra-ui/react"
 
 import { useTranslation } from 'react-i18next';
@@ -29,10 +31,37 @@ const Experience = () => {
 
     <Center>
       <Box bg={contColor} p={4} borderRadius="md" mt={6}>
-        <LangCase name="Python" Icon={DiPython} Content={PythonCase}/> 
-        <LangCase name="JavaScript" Icon={DiJavascript} Content={JSCase}/> 
-        <LangCase name="C++" Icon={SiCplusplus} Content={CplusCase}/> 
+        
+
+        <Box alignContent="center">
+          <Center>
+            <LangCase name="Python" Icon={DiPython} Content={PythonCase}/> 
+            <LangCase name="JavaScript" Icon={DiJavascript} Content={JSCase}/> 
+            <LangCase name="C++" Icon={SiCplusplus} Content={CplusCase}/> 
+          </Center>
+        </Box>
+        <Box textAlign="center">
+          {t('experience-util')}
+          <Box>
+            <HStack>
+              <Badge colorScheme="green">git</Badge>
+              <Badge colorScheme="green">ci/cd (github)</Badge>
+              <Badge colorScheme="green">SQL</Badge>
+            </HStack>
+            <HStack mt={2}>
+              <Badge colorScheme="purple">photoshop</Badge>
+              <Badge colorScheme="purple">inkscape</Badge>
+              <Badge colorScheme="purple">vegas pro</Badge>
+            </HStack>
+            <HStack mt={2}>
+              <Badge colorScheme="purple">verilog</Badge>
+              <Badge colorScheme="purple">mongodb</Badge>
+              <Badge colorScheme="green">AWS</Badge>
+            </HStack>
+          </Box>
+        </Box>
       </Box>
+
     </Center>
 
 
