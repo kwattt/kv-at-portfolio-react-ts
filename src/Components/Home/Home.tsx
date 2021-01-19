@@ -1,7 +1,8 @@
 import {
   Heading,
   Center,
-  Box,
+  Grid,
+  GridItem,
   Container, 
   Text,
   useColorModeValue 
@@ -11,6 +12,7 @@ import Navbar from './Nav/Nav';
 import Typed from 'react-typed';
 
 import { useTranslation } from 'react-i18next';
+import About from "./About/About";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -58,8 +60,38 @@ const Home = () => {
         <Center>
           <Navbar/>
         </Center>
+      </Container>
+
+
+      <Container 
+        bg=""
+        mt={5}
+      >
+
+      <Grid
+        rowGap={5}
+        templateRows="repeat(3, 1fr)"
+        templateColumns="repeat(1, 1fr)"
+      >
+
+        <GridItem>
+          <About/>
+        </GridItem>
+
+        <GridItem>
+              A
+        </GridItem>
+
+        <GridItem>
+              A
+        </GridItem>
+  
+      </Grid>
+
 
       </Container>
+
+
   </>);
 
 
