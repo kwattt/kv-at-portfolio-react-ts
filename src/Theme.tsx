@@ -38,6 +38,13 @@ const components = {
       }
     })
   },
+  Popover: {
+    baseStyle: (props : GlobalStyleProps) => ({
+      content: {
+        bg: mode("white", "#545454")(props),
+      }
+    })
+  },
 };
 
 const theme = extendTheme({

@@ -5,7 +5,8 @@ import {
   GridItem,
   Container, 
   Text,
-  useColorModeValue 
+  useColorModeValue, 
+  Box
 } from "@chakra-ui/react";
 
 import Navbar from './Nav/Nav';
@@ -13,6 +14,7 @@ import Typed from 'react-typed';
 
 import { useTranslation } from 'react-i18next';
 import About from "./About/About";
+import Projects from './Projects/Projects'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -53,8 +55,8 @@ const Home = () => {
               smartBackspace={true}
             /> 
             </b>
-            <i>{t('subtext')}</i>
-          </Text>
+            <Box textAlign="center"><i>{t('subtext')}</i></Box>
+          </Text> 
         </Center>
 
         <Center>
@@ -79,7 +81,7 @@ const Home = () => {
         </GridItem>
 
         <GridItem>
-              A
+          <Projects/>
         </GridItem>
 
         <GridItem>
@@ -87,7 +89,6 @@ const Home = () => {
         </GridItem>
   
       </Grid>
-
 
       </Container>
 

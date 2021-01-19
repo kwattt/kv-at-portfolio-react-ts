@@ -1,5 +1,5 @@
 {
-  "subtext": ", sitio personal y portafolio.",
+  "subtext": "sitio personal y portafolio",
   "home": "Inicio",
   "about": "Acerca",
   "work": "Proyectos",
@@ -8,12 +8,12 @@
   "eng": "Inglés",
   "esp": "Español",
   "about-title": "Acerca de mí",
-  "about-text-1": "¡Hola! Mi nombre es Jorge Humberto González Ramos, tengo 19 años. Actualmente estudio Ingeniería en Computación en el Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI).",
+  "about-text-1": "¡Hola! Mi nombre es Jorge Humberto González Ramos, tengo 19 años y actualmente vivo en Guadalajara, México. Actualmente estudio Ingeniería en Computación en el Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI).",
   "about-text-2": "Mi interés por la programación surgió desde mi infancia con los videojuegos, el gamemodding fue mi inicio, sin embargo mi experiencia profesional comenzó recientemente en 2019.",
   "about-text-3": "La experiencia se enfoca en el web-development, tanto en el front-end como en el back-end con el entusiasmo de usar las últimas y mejores tecnologías disponibles.",
   "about-text-4": "Mi principal objetivo es aprovechar mis habilidades y enfocarlas en la creación de nuevas herramientas y soluciones para todos los usuarios.",
   "experience": "Experiencia",
-  "experience-text": "Principalmente he trabajado con el lenguaje de python y javascript, sin embargo como hobby y estudio también he aprendido lenguajes como c, c++, c#  y lenguajes de scripting",
+  "experience-text": "Principalmente he trabajado con el lenguaje de python y javascript, sin embargo como hobby y estudio también he aprendido lenguajes como c, c++, c#  y lenguajes de scripting. Da click en el icono para ver las tecnologías!",
   "experience-low": "Experiencia baja",
   "experience-high": "Experiencia alta"
 }
