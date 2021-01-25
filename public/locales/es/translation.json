@@ -33,6 +33,6 @@
   "work4-2": "Este es un juego simple, fue creado para probar pygame",
   "work4-3": "Este proyecto es uno escolar, utilicé scapy para la captura de paquetes, sanic como servidor y react como interfaz local",
 
-  "contact-title": "Contacto"
-
+  "contact-title": "Contacto",
+  "email": "Correo"
 }

@@ -69,13 +69,10 @@ const Home = () => {
       <Container 
         bg=""
         mt={5}
+        mb={10}
       >
 
-      <Grid
-        rowGap={5}
-        templateRows="repeat(3, 1fr)"
-        templateColumns="repeat(1, 1fr)"
-      >
+      <Grid>
 
         <GridItem>
           <About/>
@@ -88,12 +85,10 @@ const Home = () => {
         <GridItem>
           <Contact/>
         </GridItem>
-  
+
       </Grid>
 
       </Container>
-
-
   </>);
 
 
