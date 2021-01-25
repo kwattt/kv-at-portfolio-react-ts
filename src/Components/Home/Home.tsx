@@ -16,15 +16,22 @@ import { useTranslation } from 'react-i18next';
 import About from "./About/About";
 import Projects from './Projects/Projects'
 import Contact from './Contact/Contact'
+import { useRef } from "react";
 
 const Home = () => {
   const { t } = useTranslation();
   const contColor = useColorModeValue("#c0d3db", "#3c3c3c")
   const headColor = useColorModeValue("linear(to-l, #718d90,#43585a)", "linear(to-l, #dbdbdb,#aea3a3)")
 
+  const start = useRef<HTMLInputElement>(null)
+  const about = useRef<HTMLInputElement>(null)
+  const projects = useRef<HTMLInputElement>(null)
+  const contact = useRef<HTMLInputElement>(null)
+
   return (<>
   
       <Container 
+        ref={start}
         mt={30}
         bg={contColor}
         borderTopRadius={3}
@@ -61,7 +68,7 @@ const Home = () => {
         </Center>
 
         <Center>
-          <Navbar/>
+          <Navbar start={start} about={about} projects={projects} contact={contact}/>
         </Center>
       </Container>
 
@@ -74,15 +81,15 @@ const Home = () => {
 
       <Grid>
 
-        <GridItem>
+        <GridItem ref={about}>
           <About/>
         </GridItem>
 
-        <GridItem>
+        <GridItem ref={projects}>
           <Projects/>
         </GridItem>
 
-        <GridItem>
+        <GridItem ref={contact}>
           <Contact/>
         </GridItem>
 
