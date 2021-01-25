@@ -7,6 +7,47 @@
     "lang": "Language",
     "eng": "English",
     "esp": "Spanish",
-    "about-title": "about",
-    "about-text": ""
-}
+    "about-title": "About me",
+    "about-text-1": "Hi! My name is Jorge Humberto González Ramos, I'm 19 years old and I currently live in Guadalajara, Mexico. I am currently studying Computer Engineering at the University Center for Exact Sciences and Engineering (CUCEI in spanish) from Universidad de Guadalajara.",
+    "about-text-2": "My interest in programming was created in my childhood with video games, gamemodding was my beginning, however my professional experience started recently in 2019.",
+    "about-text-3": "My experience focuses on web-development, both front-end and back-end with the enthusiasm of using the latest and best technologies available.",
+    "about-text-4": "My main goal is to take advantage of my skills and focus on creating new tools and solutions for every type of user.",
+    "experience": "Experience",
+    "experience-text": "Mainly I have worked with python and javascript, however as a hobby and study I have also learned languages such as c, c ++, c # and scripting languages. Click on the icon to see the technologies I use.",
+    "experience-util": "Other skills",
+  
+    "exp-cplus": "Use and understanding of it.",
+    "exp-desk": "Simple desktop applications.",
+    "exp-game": "Multiple games and different modifications.",
+  
+    "exp-ts": "Usage of Typescript.",
+    "exp-react": "Creation of differents websites and applications, webs.",
+    "exp-vue": "Web creation.",
+    "exp-express": "Basic servers on express.",
+  
+    "exp-flask": "API building, interactive websites, use of websockets.",
+    "exp-numpy": "Extensive and optimized calculations.",
+    "exp-django": "Blog and virtual notebook.",
+  
+    "exp-plot": "Graphs.",
+    "exp-pygame": "Simple games.",
+  
+    "work-title": "Projects",
+    "work-desc": "These are some of the projects I have worked on.",
+  
+    "work-sec1": "Websites",
+    "work-sec2": "Desktop apps",
+    "work-sec3": "Game Modding",
+    "work-sec4": "Others",
+  
+    "work1-1": "Sophii is a multi-featured Discord bot with twitch alerts, levels, and more. It is done in python using discord.py as the API Wrapper. It has a user panel made in React",
+    "work1-2": "This site was built to show a bit what I do and to practice a bit more typescript and react.",
+    
+    "work3-1": "This mod is dedicated to adding building elements to the game, chopping wood, mining and construction, cabins, customization and more.",
+    
+    "work4-1": "The objective of this library is to scrape Twitter without using its official API.",
+    "work4-2": "This is a simple game, it was created to test pygame.",
+    "work4-3": "This project is a school one, I used scapy for packet capture, sanic as server and react as interface.",
+  
+    "contact-title": "Contact"
+  }

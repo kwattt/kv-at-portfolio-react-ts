@@ -16,6 +16,22 @@
   "experience-text": "Principalmente he trabajado con el lenguaje de python y javascript, sin embargo como hobby y estudio también he aprendido lenguajes como c, c++, c#  y lenguajes de scripting. Da click en el icono para ver las tecnologías!",
   "experience-util": "Otras utilidades",
 
+  "exp-cplus": "Uso y comprensión de la misma",
+  "exp-desk": "Aplicaciones simples de escritorio.",
+  "exp-game": "Múltiples juegos y distintas modificaciones.",
+
+  "exp-ts": "Uso de Typescript.",
+  "exp-react": "Creación de distintas aplicaciones, webs.",
+  "exp-vue": "Creación de webs.",
+  "exp-express": "Servidores básicos en Express.",
+
+  "exp-flask": "Construcción de API, webs interactivas, uso de websockets.",
+  "exp-numpy": "Cálculos extensos y optimizados.",
+  "exp-django": "Construcción de Blog, libreta virtual.",
+
+  "exp-plot": "Gráficas.",
+  "exp-pygame": "Juegos sencillos.",
+
   "work-title": "Proyectos",
   "work-desc": "Estos son algunos de los proyectos que he realizado.",
 
@@ -33,6 +49,5 @@
   "work4-2": "Este es un juego simple, fue creado para probar pygame",
   "work4-3": "Este proyecto es uno escolar, utilicé scapy para la captura de paquetes, sanic como servidor y react como interfaz local",
 
-  "contact-title": "Contacto",
-  "email": "Correo"
+  "contact-title": "Contacto"
 }
