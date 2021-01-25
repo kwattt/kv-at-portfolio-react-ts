@@ -2,6 +2,7 @@ import i18n from 'i18next'
 import Backend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
+import LocalStorageBackend from 'i18next-localstorage-backend';
 
 i18n
   // Enables the i18next backend
@@ -10,17 +11,20 @@ i18n
   .use(LanguageDetector)
   // Enables the hook initialization module
   .use (initReactI18next)
+
   .init({
-    // Standard language used
     fallbackLng: 'en',
+
     debug: false,
-    //Detects and caches a cookie from the language provided
-    detection: {
-      order: ['queryString', 'cookie'],
-      cache: ['localstorage']
-    },
+
     interpolation: {
       escapeValue: false
+    },
+    backend: {
+      backends: [
+        LocalStorageBackend,
+        Backend
+      ]
     },
     react: { 
       useSuspense: false

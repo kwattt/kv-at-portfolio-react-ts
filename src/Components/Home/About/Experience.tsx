@@ -49,14 +49,14 @@ const Experience = () => {
               <Badge colorScheme="green">SQL</Badge>
             </HStack>
             <HStack mt={2}>
+              <Badge colorScheme="green">AWS</Badge>
+              <Badge colorScheme="green">linux</Badge>
               <Badge colorScheme="purple">photoshop</Badge>
-              <Badge colorScheme="purple">inkscape</Badge>
-              <Badge colorScheme="purple">vegas pro</Badge>
             </HStack>
             <HStack mt={2}>
               <Badge colorScheme="purple">verilog</Badge>
               <Badge colorScheme="purple">mongodb</Badge>
-              <Badge colorScheme="green">AWS</Badge>
+              <Badge colorScheme="purple">vegas pro</Badge>
             </HStack>
           </Box>
         </Box>

@@ -16,6 +16,23 @@
   "experience-text": "Principalmente he trabajado con el lenguaje de python y javascript, sin embargo como hobby y estudio también he aprendido lenguajes como c, c++, c#  y lenguajes de scripting. Da click en el icono para ver las tecnologías!",
   "experience-util": "Otras utilidades",
 
+  "work-title": "Proyectos",
+  "work-desc": "Estos son algunos de los proyectos que he realizado.",
 
-  "work-title": "Proyectos"
+  "work-sec1": "Websites",
+  "work-sec2": "Aplicaciones de escritorio",
+  "work-sec3": "Game Modding",
+  "work-sec4": "Otros",
+
+  "work1-1": "Sophii es un bot de discord con múltiples funciones, alertas de twitch, niveles, etcétera. Está hecho en python utilizando discord.py como Wrapper de API. Cuenta con un panel de usuario hecho en React",
+  "work1-2": "Este sitio fue construido para mostrar un poco lo que hago y de paso practicar un poco mas typescript y react",
+  
+  "work3-1": "Este mod está dedicado a añadir elementos de construcción al juego, cortar madera, minería y construcción, cabañas, personalización y más",
+  
+  "work4-1": "Esta librería tiene como objetivo realizar scraping de Twitter sin la utilización de su API oficial",
+  "work4-2": "Este es un juego simple, fue creado para probar pygame",
+  "work4-3": "Este proyecto es uno escolar, utilicé scapy para la captura de paquetes, sanic como servidor y react como interfaz local",
+
+  "contact-title": "Contacto"
+
 }

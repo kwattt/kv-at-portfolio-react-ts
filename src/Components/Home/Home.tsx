@@ -15,6 +15,7 @@ import Typed from 'react-typed';
 import { useTranslation } from 'react-i18next';
 import About from "./About/About";
 import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
 
 const Home = () => {
   const { t } = useTranslation();
@@ -85,7 +86,7 @@ const Home = () => {
         </GridItem>
 
         <GridItem>
-              A
+          <Contact/>
         </GridItem>
   
       </Grid>

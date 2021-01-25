@@ -41,13 +41,13 @@ export const PythonCase = () => {
   return (<>
     <HStack>
       <Tech title="Flask" size={35} icon={SiFlask} desc="Construcción de API, webs interactivas, uso de websockets." color="#72c550"/>
-      <Tech title="Django" size={35} icon={SiDjango} desc="Construcción de Blog, libreta virtual" color="#72c550"/>
-      <Tech title="Matplotlib" size={35} icon={BsGraphDown} desc="Gráficas" color="#bed640"/>
+      <Tech title="Numpy" size={35} icon={CgMathPlus} desc="Cálculos extensos y optimizados" color="#bed640"/>
+      <Tech title="Django" size={35} icon={SiDjango} desc="Construcción de Blog, libreta virtual" color="#bed640"/>
     </HStack>
 
     <HStack mt={2}>
+    <Tech title="Matplotlib" size={35} icon={BsGraphDown} desc="Gráficas" color="#bed640"/>
       <Tech title="Pygame" size={35} icon={BsController} desc="Juegos sencillos" color="#72c550"/>
-      <Tech title="Numpy" size={35} icon={CgMathPlus} desc="Cálculos extensos y optimizados" color="#bed640"/>
     </HStack>
 
   </>)
